@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { FiX, FiCompass, FiFileText, FiSearch, FiGlobe } from 'react-icons/fi'
+import { FiX, FiCompass, FiFileText, FiSearch } from 'react-icons/fi'
 
 interface AIChatPanelProps {
   open: boolean
@@ -20,19 +20,15 @@ export function AIChatPanel({ open, onClose }: AIChatPanelProps) {
       <SuggestionList>
         <SuggestionItem>
           <i><FiCompass /></i>
-          <span>연결된 앱에서 답변 찾기</span>
+          <span>보고서 생성</span>
         </SuggestionItem>
         <SuggestionItem>
           <i><FiFileText /></i>
-          <span>이 페이지 요약</span>
+          <span>최신 규제 근황 보고</span>
         </SuggestionItem>
         <SuggestionItem>
           <i><FiSearch /></i>
-          <span>액션 아이템 찾기</span>
-        </SuggestionItem>
-        <SuggestionItem>
-          <i><FiGlobe /></i>
-          <span>이 페이지 번역</span>
+          <span>파일 요약하기</span>
         </SuggestionItem>
       </SuggestionList>
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { FiHome, FiSettings, FiFolder, FiGrid, FiCpu, FiCloud, FiZap, FiBookOpen, FiUsers } from 'react-icons/fi'
+import { FiHome, FiSettings, FiFolder, FiGrid, FiCpu, FiCloud, FiZap, FiBookOpen, FiUsers, FiLink } from 'react-icons/fi'
 import { Link, useLocation } from 'react-router-dom'
 
 const menus = [
@@ -12,7 +12,7 @@ const menus = [
   { icon: <FiCloud />, label: '클라우드 탄소', to: '/cloud' },
   { icon: <FiCpu />, label: '코드 탄소', to: '/code' },
   { icon: <FiGrid />, label: '탄소 회계', to: '/accounting' },
-  { icon: <FiFolder />, label: '연동', to: '/integrations' },
+  { icon: <FiLink />, label: '연동', to: '/integrations' },
   { icon: <FiBookOpen />, label: 'API 문서', to: '/api' },
   { icon: <FiUsers />, label: '커뮤니티', to: '/community' },
   { icon: <FiSettings />, label: '설정', to: '/settings' },
