@@ -35,7 +35,7 @@ const HeaderWrapper = styled.header`
   z-index: 10;
   background: ${({ theme }) => theme.color.surface};
   border-bottom: 1px solid ${({ theme }) => theme.color.border};
-  padding-left: calc(${({ theme }) => theme.layout.sidebarWidth}px + 4px);
+  padding-left: 16px;
   padding-right: 40px;
 `
 
